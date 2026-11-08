@@ -22,3 +22,12 @@ tablica[tablica.length] = 'nowy7';
 console.log(tablica.length);
 tablica.push('nowy8', 'nowy9', 'nowy10', 'nowy11');
 console.log(tablica.length);
+
+// 4.
+const nowaDlugosc = tablica.unshift('nowy12', 'nowy13');
+console.log(nowaDlugosc);
+
+// 5.
+wypisz(`Tablica: ${tablica.join(', ')} (elementów: ${tablica.length})`);
+const szukany = 'sushi';
+wypisz(`Czy tablica zawiera "${szukany}"? ${tablica.includes(szukany) ? 'tak' : 'nie'}, pozycja: ${tablica.indexOf(szukany)}`);
