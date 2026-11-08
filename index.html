@@ -300,6 +300,8 @@
 	<script src="js/forms.js"></script>
 	<script defer src="js/imie.js"></script>
 	<script defer src="js/powitanie.js"></script>
+
+	<p>Standardowe ładowanie skryptów wstrzymuje budowanie drzewa DOM, przez co elementy znajdujące się poniżej znacznika są niewidoczne dla kodu JavaScript. Atrybut defer pobiera pliki w tle i uruchamia je w odpowiedniej kolejności dopiero po pełnym sparsowaniu dokumentu, podczas gdy async wykonuje je natychmiast po pobraniu, co nie gwarantuje żadnej kolejności działań. Metoda document.write zupełnie nie nadaje się do skryptów ładowanych asynchronicznie (defer/async), ponieważ próba zapisu po zakończeniu parsowania dokumentu sprawia, że przeglądarka całkowicie ignoruje te operacje i wyrzuca ostrzeżenia w konsoli.</p>
 	
 </body>
 
