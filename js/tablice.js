@@ -54,3 +54,5 @@ wypisz(`Wszystkie przedmioty: ${przedmioty.join(', ')}`);
 const piatki = oceny.filter((element) => element.ocena === 5);
 const nazwyPiatek = oceny.map((element) => element.przedmiot);
 wypisz(`Przedmioty na 5 (${piatki.length}): ${nazwyPiatek.join(', ')}`);
+
+////
