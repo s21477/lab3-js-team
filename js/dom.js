@@ -13,3 +13,18 @@ document.getElementById('licznik').innerHTML =
     `Obrazki &lt;img&gt; na całej stronie (logo): <strong>${liczbaObrazkow}</strong><br>` +
     `Odnośniki &lt;a&gt; na całej stronie (menu i linki): <strong>${liczbaOdnosnikow}</strong><br>` +
     `Akapity &lt;p&gt; w sekcji projekt1: <strong>${liczbaAkapitow}</strong>`;
+
+    
+const lista = document.getElementById('lista');
+
+const li1 = document.createElement('li');
+li1.textContent = `Formularze: ${liczbaFormularzy}`;
+lista.append(li1);
+
+const li2 = document.createElement('li');
+li2.textContent = `Obrazki: ${liczbaObrazkow}`;
+lista.append(li2);
+
+const li3 = document.createElement('li');
+li3.textContent = `Odnośniki: ${liczbaOdnosnikow}`;
+lista.append(li3);
