@@ -31,3 +31,26 @@ console.log(nowaDlugosc);
 wypisz(`Tablica: ${tablica.join(', ')} (elementów: ${tablica.length})`);
 const szukany = 'sushi';
 wypisz(`Czy tablica zawiera "${szukany}"? ${tablica.includes(szukany) ? 'tak' : 'nie'}, pozycja: ${tablica.indexOf(szukany)}`);
+
+// OSOBA A
+// 1.
+const oceny = [
+    {przedmiot: 'JavaScript', ocena: 5},
+    {przedmiot: 'Git', ocena: 4},
+    {przedmiot: 'HTML', ocena: 5},
+    {przedmiot: 'CSS', ocena: 3}
+];
+wypisz(`${oceny[1].przedmiot}: ${oceny[1].ocena}`);
+
+// 2.
+oceny.forEach((element) => {
+    wypisz(`${element.przedmiot}: ${element.ocena}`);
+});
+
+// 3.
+const przedmioty = oceny.map((element) => element.przedmiot);
+wypisz(`Wszystkie przedmioty: ${przedmioty.join(', ')}`);
+
+const piatki = oceny.filter((element) => element.ocena === 5);
+const nazwyPiatek = oceny.map((element) => element.przedmiot);
+wypisz(`Przedmioty na 5 (${piatki.length}): ${nazwyPiatek.join(', ')}`);
