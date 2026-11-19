@@ -52,7 +52,12 @@ const przedmioty = oceny.map((element) => element.przedmiot);
 wypisz(`Wszystkie przedmioty: ${przedmioty.join(', ')}`);
 
 const piatki = oceny.filter((element) => element.ocena === 5);
-const nazwyPiatek = oceny.map((element) => element.przedmiot);
+const nazwyPiatek = piatki.map((element) => element.przedmiot);
 wypisz(`Przedmioty na 5 (${piatki.length}): ${nazwyPiatek.join(', ')}`);
 
-////
+// 4. (★) średnia ocen
+let suma = 0;
+oceny.forEach((element) => {
+    suma += element.ocena;
+});
+wypisz(`Średnia ocen: ${(suma / oceny.length).toFixed(2)}`);
