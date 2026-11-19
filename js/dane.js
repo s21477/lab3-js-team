@@ -23,3 +23,15 @@ function pokazDane() {
 }
 
 document.getElementById('pokazDane').addEventListener('click', pokazDane);
+
+// ★ drugi przycisk: dopisuje do listy #lista element z numerem kliknięcia
+let numerKlikniecia = 0;
+
+function dodajDoListy() {
+    numerKlikniecia++;
+    const li = document.createElement('li');
+    li.textContent = `Kliknięcie numer ${numerKlikniecia}`;
+    document.getElementById('lista').append(li);
+}
+
+document.getElementById('dodajDoListy').addEventListener('click', dodajDoListy);
