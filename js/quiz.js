@@ -4,14 +4,14 @@ function startQuiz() {
   for (const question of questions) {
     const answer = prompt(question.pytanie, '');
 
-    if (Number(answer) === question.odpowiedz) {
+    if (answer !== null && answer.trim() !== '' && Number(answer) === question.odpowiedz) {
       alert('Prawidłowa odpowiedź!');
       score++;
     } else {
       alert(`Błąd. Prawidłowa odpowiedź to ${question.odpowiedz}`);
     }
   }
-  
+
   const wynikElement = document.getElementById('wynik');
   wynikElement.textContent = `Wynik: ${score} / ${questions.length}`;
 }
