@@ -2,9 +2,7 @@ const zespol = [
     { nazwisko: 'Krzysiak', imie: 'Tomasz', grupa: '1', 
       email: '21477@student.ans-elblag.pl', indeks: '21477' },
     { nazwisko: 'Sydor', imie: 'Jakub', grupa: '1', 
-      email: '21540@student.ans-elblag.pl', indeks: '21540' },
-    { nazwisko: 'Kuczkowska', imie: 'Angelika', grupa: '1', 
-      email: '21478@student.ans-elblag.pl', indeks: '21478' }
+      email: '21540@student.ans-elblag.pl', indeks: '21540' }
 ];
 
 // wstawienie danych obu osób na stronę (id akapitu = nazwa pola obiektu)
