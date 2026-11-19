@@ -19,7 +19,7 @@ function startQuiz() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const startButton = document.getElementById('start-quiz-btn');
+  const startButton = document.getElementById('startQuiz');
   if (startButton) {
     startButton.addEventListener('click', startQuiz);
   }
