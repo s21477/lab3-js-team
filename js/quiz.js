@@ -11,7 +11,12 @@ function startQuiz() {
       alert(`Błąd. Prawidłowa odpowiedź to ${question.odpowiedz}`);
     }
   }
+  
+  const wynikElement = document.getElementById('wynik');
+  wynikElement.textContent = `Wynik: ${score} / ${questions.length}`;
 }
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const startButton = document.getElementById('start-quiz-btn');
