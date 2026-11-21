@@ -6,7 +6,6 @@ Angelika Kuczkowska 21478 Morxsiis
 
 ## Podział pracy
 
-|------------------------------------------------------------------------------------------------------------------|
 | Zadanie                                    |         Autor       |          Recenzja / wykład partnera           |
 |--------------------------------------------|---------------------|-----------------------------------------------| 
 | 1. Ładowanie skryptów                      |   Tomasz Krzysiak   | Angelika Kuczkowska / Jakub Sydor - review PR |
@@ -15,4 +14,3 @@ Angelika Kuczkowska 21478 Morxsiis
 | 4. DOM                                     |      Jakub Sydor    |         Angelika Kuczkowska - review PR       |
 | 5. Pętle, funkcje, zdarzenia               |   Tomasz Krzysiak   | Angelika Kuczkowska / Jakub Sydor - review PR |
 | 6. Quiz                                    | Angelika Kuczkowska |                      brak                     |
-|------------------------------------------------------------------------------------------------------------------|
