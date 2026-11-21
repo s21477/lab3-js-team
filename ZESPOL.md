@@ -11,3 +11,8 @@ Angelika Kuczkowska 21478 Morxsiis
 | 2. Tablice                   | Kuba     | Angelika - review PR            |
 | 4. DOM                       | Kuba     | Angelika - review PR            |
 
+| Zadanie                                                    | Autor    | Recenzja / wklad partnera  |
+|------------------------------------------------------------|----------|----------------------------|
+| 3. Osoba A join filter i map, osoba A map filter for each  | Angelika | plik tablice.js od s7dorek |
+| 6. Quiz                                                    | Angelika | brak
+
